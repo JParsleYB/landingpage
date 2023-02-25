@@ -13,11 +13,19 @@
 
 .topheader {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
+    white-space: nowrap;
+    gap:4em;
     /* background-color: rgb(232, 64, 64); */
-    /* min-width: 40em; */
+}
 
+.right {
+    /* background-color: #3882f6; */
+}
+
+.left {
+    width: 25em;
 }
 
 .list {
@@ -76,8 +84,134 @@ button:hover {
     justify-content: center;
     align-items: center;
     width: 25em;
-    min-height: 13.5em;
+    height: 13.5em;
     background-color:#858585;
     color:#e5e7eb;
     padding: 2em;
 }
+
+/* info */
+
+.info {
+    color:#1F2937;
+}
+
+.titleinfo {
+    display:flex;
+    justify-content: center;
+    padding: 2em;
+    font-size: 2em;
+    font-weight: 1000;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+}
+
+.imginfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13.5em;
+    height: 13.5em;
+    background-color:#858585;
+    color:#e5e7eb;
+    /* margin: 4em; */
+    border: solid 5px #3882f6;
+    border-radius: 1em;
+}
+
+.card {
+    max-width: 14em;
+    text-align: center;
+    padding:0.4em
+}
+
+/* quote */
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#e5e7eb;
+    padding: 5em 25em;
+    margin-top: 5em;
+}
+
+.quotedescription {
+    font-size: 1.8em;
+    font-style: italic;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    width: 50em;
+}
+
+.name {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+/* call to action */
+
+.calltoaction {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#e5e7eb;
+    padding: 2.5em;
+    margin: 5em 25em;
+    border-radius: 1em;
+    gap:10em;
+
+}
+
+.calltoactioncont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty {
+    /* background-color: red; */
+}
+
+.titlecall {
+    font-weight: 1000;
+}
+
+.buttoncall {
+    padding: 0.5em 2em;
+    background-color:#3882f6;
+    color:#f9faf8;
+    border-radius: 0.5em;
+    border: solid #e5e7eb 0.1em;
+    margin-top: 1em;
+}
+
+.boxaction-right {
+    margin-bottom: 0.9em;
+}
+
+/* footer */
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    padding: 3em;
+}
+
